@@ -11,15 +11,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         textTheme: TextTheme(
           bodyText1: const TextStyle(
-            fontSize: 16,
-            color: Colors.white,
-          ),
+              fontSize: 16, color: Colors.white, fontWeight: FontWeight.normal),
           headline1: const TextStyle(
             fontSize: 20,
             color: Colors.white,
+            fontWeight: FontWeight.bold,
           ),
         ),
         primarySwatch: Colors.blue,
